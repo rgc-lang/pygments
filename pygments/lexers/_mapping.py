@@ -450,6 +450,7 @@ LEXERS = {
     'RellLexer': ('pygments.lexers.rell', 'Rell', ('rell',), ('*.rell',), ('text/x-rell',)),
     'ResourceLexer': ('pygments.lexers.resource', 'ResourceBundle', ('resourcebundle', 'resource'), (), ()),
     'RexxLexer': ('pygments.lexers.scripting', 'Rexx', ('rexx', 'arexx'), ('*.rexx', '*.rex', '*.rx', '*.arexx'), ('text/x-rexx',)),
+    'RgcLexer': ('pygments.lexers.rgc', 'RGC', ('rgc',), ('*.rg',), ('text/x-rgc',)),
     'RhtmlLexer': ('pygments.lexers.templates', 'RHTML', ('rhtml', 'html+erb', 'html+ruby'), ('*.rhtml',), ('text/html+ruby',)),
     'RideLexer': ('pygments.lexers.ride', 'Ride', ('ride',), ('*.ride',), ('text/x-ride',)),
     'RitaLexer': ('pygments.lexers.rita', 'Rita', ('rita',), ('*.rita',), ('text/rita',)),

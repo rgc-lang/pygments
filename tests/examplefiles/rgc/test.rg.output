@@ -1,0 +1,161 @@
+'# A sample RGC program' Comment.Single
+'\n'          Text.Whitespace
+
+'def'         Keyword
+' '           Text.Whitespace
+'fib'         Name.Function
+'('           Punctuation
+'n'           Name
+':'           Punctuation
+' '           Text.Whitespace
+'int'         Keyword.Type
+')'           Punctuation
+' '           Text.Whitespace
+'->'          Operator
+' '           Text.Whitespace
+'int'         Keyword.Type
+':'           Punctuation
+'\n    '      Text.Whitespace
+'if'          Keyword
+' '           Text.Whitespace
+'n'           Name
+' '           Text.Whitespace
+'<='          Operator
+' '           Text.Whitespace
+'1'           Literal.Number
+':'           Punctuation
+'\n        '  Text.Whitespace
+'return'      Keyword
+' '           Text.Whitespace
+'n'           Name
+'\n    '      Text.Whitespace
+'return'      Keyword
+' '           Text.Whitespace
+'fib'         Name.Function
+'('           Punctuation
+'n'           Name
+' '           Text.Whitespace
+'-'           Operator
+' '           Text.Whitespace
+'1'           Literal.Number
+')'           Punctuation
+' '           Text.Whitespace
+'+'           Operator
+' '           Text.Whitespace
+'fib'         Name.Function
+'('           Punctuation
+'n'           Name
+' '           Text.Whitespace
+'-'           Operator
+' '           Text.Whitespace
+'2'           Literal.Number
+')'           Punctuation
+'\n\n'        Text.Whitespace
+
+'class'       Keyword
+' '           Text.Whitespace
+'Counter'     Name
+':'           Punctuation
+'\n    '      Text.Whitespace
+'value'       Name
+':'           Punctuation
+' '           Text.Whitespace
+'int'         Keyword.Type
+' '           Text.Whitespace
+'='           Operator
+' '           Text.Whitespace
+'0'           Literal.Number
+'\n\n    '    Text.Whitespace
+'def'         Keyword
+' '           Text.Whitespace
+'increment'   Name.Function
+'('           Punctuation
+'self'        Name
+')'           Punctuation
+' '           Text.Whitespace
+'->'          Operator
+' '           Text.Whitespace
+'None'        Keyword.Constant
+':'           Punctuation
+'\n        '  Text.Whitespace
+'self'        Name
+'.'           Punctuation
+'value'       Name
+' '           Text.Whitespace
+'+='          Operator
+' '           Text.Whitespace
+'1'           Literal.Number
+'\n\n'        Text.Whitespace
+
+'counter'     Name
+':'           Punctuation
+' '           Text.Whitespace
+'Counter'     Name
+' '           Text.Whitespace
+'='           Operator
+' '           Text.Whitespace
+'@var'        Keyword
+' '           Text.Whitespace
+'Counter'     Name.Function
+'('           Punctuation
+')'           Punctuation
+'\n'          Text.Whitespace
+
+'for'         Keyword
+' '           Text.Whitespace
+'i'           Name
+' '           Text.Whitespace
+'in'          Keyword
+' '           Text.Whitespace
+'range'       Name.Function
+'('           Punctuation
+'10'          Literal.Number
+')'           Punctuation
+':'           Punctuation
+'\n    '      Text.Whitespace
+'counter'     Name
+'.'           Punctuation
+'increment'   Name.Function
+'('           Punctuation
+')'           Punctuation
+'\n'          Text.Whitespace
+
+'match'       Keyword
+' '           Text.Whitespace
+'counter'     Name
+'.'           Punctuation
+'value'       Name
+':'           Punctuation
+'\n    '      Text.Whitespace
+'case'        Keyword
+' '           Text.Whitespace
+'10'          Literal.Number
+' '           Text.Whitespace
+'=>'          Operator
+' '           Text.Whitespace
+'print'       Name.Function
+'('           Punctuation
+'"ten"'       Literal.String
+')'           Punctuation
+'\n    '      Text.Whitespace
+'case'        Keyword
+' '           Text.Whitespace
+'_'           Name
+' '           Text.Whitespace
+'=>'          Operator
+' '           Text.Whitespace
+'print'       Name.Function
+'('           Punctuation
+'counter'     Name
+'.'           Punctuation
+'value'       Name
+')'           Punctuation
+'\n'          Text.Whitespace
+
+'print'       Name.Function
+'('           Punctuation
+'counter'     Name
+'.'           Punctuation
+'value'       Name
+')'           Punctuation
+'\n'          Text.Whitespace
